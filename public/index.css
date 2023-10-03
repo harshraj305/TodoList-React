@@ -1,0 +1,105 @@
+.headername {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+    height: 50px;
+    padding-top: 15px;
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+
+/*  */
+
+.input-section {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.additembutton,
+.todoinput {
+    width: 40%;
+}
+
+.todoinput {
+    border: 2px solid;
+    height: 40px;
+}
+
+.additembutton {
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    padding-top: 0.5%;
+    border: 2px solid;
+    height: 46px;
+    background-color: #91C8E4;
+}
+
+.additembutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  */
+
+.taskcount {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.list-container {
+    padding-left: 10%;
+}
+
+.list {
+    display: flex;
+}
+
+.list p {
+    border: 1px solid;
+    width: 60%;
+    height: 30px;
+
+    padding-top: 0.75%;
+
+}
+
+.list p span {
+    padding-left: 2%;
+}
+
+.list button {
+    margin: 15px;
+}
+
+.btnup {
+    background-color: #FFE17B;
+}
+
+.btndown {
+    background-color: #91C8E4;
+}
+
+.btndlt {
+    background-color: #E48586;
+}
+
+.btndlt,
+.btndown,
+.btnup {
+    font-family: 'Special Elite', cursive;
+}
+
+.list button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
